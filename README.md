@@ -1,1 +1,1 @@
-Run `yarn` to link up the packages, or use `npm link` to do so manually. Run `npm run watch` in the `mod2` directory to observe the error.
+Clone this repo and run `yarn` to link up the packages, or use `npm link` to do so manually. Run `npm run watch` in the `mod2` directory to observe the error.
