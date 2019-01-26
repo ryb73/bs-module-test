@@ -5,10 +5,6 @@
             "dir": "src",
             "public": ["Mod1"],
         },
-        {
-            "dir": "test",
-            "type": "dev"
-        }
     ],
     "refmt": 3,
     "bsc-flags": [ "-w -10", "-bs-super-errors" ]
