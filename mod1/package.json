@@ -1,0 +1,27 @@
+{
+  "name": "mod1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryb73/bs-module-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryb73/bs-module-test/issues"
+  },
+  "homepage": "https://github.com/ryb73/bs-module-test#readme",
+  "keywords": "",
+  "author": "Ryan Biwer",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world",
+    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.0"
+  }
+}

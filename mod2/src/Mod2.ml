@@ -1,0 +1,1 @@
+let _ = Js.log2 (Mod1.get ()) (Conflict.get ())

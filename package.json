@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "workspaces": [
+        "mod1",
+        "mod2"
+    ]
+}
